@@ -18,3 +18,8 @@ Deploy the infrastructure.
 ```bash
 terraform apply
 ```
+
+Destroy the infrastructure.
+```bash
+terraform destroy
+```
