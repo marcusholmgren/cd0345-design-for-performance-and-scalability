@@ -1,0 +1,17 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2,0,5808.51,69702.12,USD,"Operating system (Linux), Quantity (90), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,10734.68,128816.16,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (100 GB per month), Nodes (2), Instance Type (db.m4.10xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (200 GB)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,1177.6,14131.20,USD,S3 Standard storage (50 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,"DT Inbound: Internet (100 TB per month), DT Inbound: Not selected (0 TB per month), DT Outbound: Amazon CloudFront (200 TB per month), DT Outbound: Not selected (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,320,3840.00,USD,Number of other API requests (32000000)
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,0,0.00,USD,"Working days per month (22), DT Inbound: Internet (100 TB per month), DT Inbound: Not selected (0 TB per month), DT Outbound: Amazon CloudFront (100 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,266.45,3197.40,USD,Number of Application Load Balancers (2)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+With increased budget I expect that increasing the archtectual bottlenecks is the best spent money.
+Add more EC2 instance to distribute the load. From 60 instances to a total of 90.
+Also increase the DB Instance Type (db.m4.10xlarge) that have more RAM memory to better handlel large amount of requests.
