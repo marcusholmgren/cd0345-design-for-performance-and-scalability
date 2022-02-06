@@ -12,3 +12,7 @@ My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,110.7,13
 
 Acknowledgement
 "* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+With increased budget I expect that increasing the archtectual bottlenecks is the best spent money.
+Add more EC2 instance to distribute the load. From 60 instances to a total of 90.
+Also increase the DB Instance Type (db.m4.10xlarge) that have more RAM memory to better handlel large amount of requests.
