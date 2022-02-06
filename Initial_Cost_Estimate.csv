@@ -1,11 +1,12 @@
 ﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
 My Estimate,US East (N. Virginia),,Amazon EC2,0,3872.34,46468.08,USD,"Operating system (Linux), Quantity (60), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t4g.xlarge)"
 My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,4123.8,49485.60,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (100 GB per month), Nodes (2), Instance Type (db.m2.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (200 GB)"
-My Estimate,US East (N. Virginia),,S3 Standard,0,2.3,27.60,USD,S3 Standard storage (100 GB per month)
+My Estimate,US East (N. Virginia),,S3 Standard,0,1177.6,14131.20,USD,S3 Standard storage (50 TB per month)
 My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,"DT Inbound: Internet (100 TB per month), DT Inbound: Not selected (0 TB per month), DT Outbound: Amazon CloudFront (200 TB per month), DT Outbound: Not selected (0 TB per month)"
-My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,120,1440.00,USD,Number of other API requests (12000000)
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,320,3840.00,USD,Number of other API requests (32000000)
 My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,0,0.00,USD,"Working days per month (22), DT Inbound: Internet (100 TB per month), DT Inbound: Not selected (0 TB per month), DT Outbound: Amazon CloudFront (100 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
 My Estimate,US East (N. Virginia),,Application Load Balancer,0,266.45,3197.40,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,110.7,1328.40,USD,Number of NAT Gateways (2)
 
 
 
